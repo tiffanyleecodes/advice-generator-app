@@ -1,0 +1,91 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    
+     font-size:28px;
+    
+}
+
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:hsl(218, 23%, 16%) ;
+    
+    
+}
+
+.container {
+    max-width:500px;
+    
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    padding:1rem;
+    border-radius: 0.5rem;
+    margin:auto 0.6rem ;
+
+
+}
+
+
+
+
+h1 {
+    font-size:0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color:hsl(150, 100%, 66%);
+    margin:0.5rem auto 1rem auto;
+}
+
+#id {
+    font-size:0.4rem;
+}
+
+p {
+    color:white;
+}
+
+.divide {
+    margin:0.7rem auto;
+    
+}
+
+.divide img {
+    max-width:95%;
+
+}
+
+button {
+    background-color:hsl(150, 100%, 66%) ;
+    padding:0.25rem 0.45rem;
+    border-radius: 50%;
+    border:none;
+    position:absolute;
+    transform: translateX(-50%);
+   
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(150, 97%, 72%);
+    box-shadow: 0 0 1rem hsl(150, 100%, 66%);
+}
+
+
+    
+.attribution {
+    display:block;
+    margin-top:2rem;
+    
+}
+
+.attribution p, .attribution  a {
+    font-size:0.4rem;
+}
